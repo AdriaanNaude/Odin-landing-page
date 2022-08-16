@@ -1,7 +1,20 @@
 :root{
-	--background_informationtext_quotetext-color-color: #1F2937;
+	--background_informationtext_quotetext-color: #1F2937;
 	--quatesection_seconderytext-color: #E5E7EB;
 	--button-color: #3882F6;
 	--heromaintext_headerlogotext-color: #F9FAF8;
+}
+*{
+	font-family: roboto;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+header{
+	background-color: var(--background_informationtext_quotetext-color)
+}
+.container1{
+	background-color: var(--background_informationtext_quotetext-color)
 }
 
