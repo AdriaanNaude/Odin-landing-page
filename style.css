@@ -16,23 +16,63 @@ header, .container1, .container2, .container3, .container4 ,footer{
 header, .container1, footer{
 	background-color: var(--background-color);
 }
-.container3{
-	background-color: var(--quatesection_seconderytext-color);
-}
+
+/* header section */
 header{
 	color: var(--heromaintext_headerlogotext-color);
 	padding: 20px;
+	justify-content: space-between;
 }
-header a{
+.head-container{
+	margin: 0 250px 0 250px;
+}
+header .head-container a{
 	color: var(--quatesection_seconderytext-color);
+	margin: 10px;
 }
+
+
+/* section 3 of innersections */
+.container3{
+	background-color: var(--quatesection_seconderytext-color);
+}
+.quote-container{
+	margin: 200px auto 200px auto;
+}
+.container3 .quote-container p{
+	font-style: italic;
+}
+
+
+
+/* section 4 of innersections */
 .box{
+	display: flex;
+	justify-content: space-between;
 	background-color: var(--button-color);
 	color: var(--heromaintext_headerlogotext-color);
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 20px;
-	margin: auto;
+	margin: 40px auto 40px auto;
+	width: 60%;
 }
+.box-container1{
+	margin: 20px 20px 20px 100px;
+}
+.box-container2{
+	margin: 30px 100px 20px 20px;
+}
+.box .btn{
+	border: 2px solid var(--heromaintext_headerlogotext-color);
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+/* footer section */
 footer{
 	color: var(--quatesection_seconderytext-color);
 	padding: 20px;
