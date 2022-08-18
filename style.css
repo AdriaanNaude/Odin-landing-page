@@ -31,16 +31,47 @@ header .head-container a{
 	margin: 10px;
 }
 
+/* section 2 of innersections */
+.container2{
+	flex-direction: column;
+	align-items: center;
+}
 
+.container2 .boxes-container{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 170px 20px 170px;
+}
+.container2 .container{
+	display: flex;
+	flex-direction: column;
+}
+.container2 .boxes-container .container .block{
+	border: 2px solid var(--button-color);
+	border-radius: 10px;
+	padding: 20px;
+	width: 50px;
+	height: 50px;
+	
+}
+.container2 .boxes-container .container sub{
+	text-align: center;
+}
 /* section 3 of innersections */
 .container3{
 	background-color: var(--quatesection_seconderytext-color);
 }
 .quote-container{
-	margin: 200px auto 200px auto;
+	margin: 200px 600px 200px 600px;
 }
-.container3 .quote-container p{
+.quote-container b{
+	display: block;
+	text-align: right;
+}
+.container3 .quote-container blockquote{
 	font-style: italic;
+	font-size: 36px;
+	font-weight: lighter;
 }
 
 
