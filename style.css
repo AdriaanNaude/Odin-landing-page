@@ -30,6 +30,39 @@ header .head-container a{
 	color: var(--quatesection_seconderytext-color);
 	margin: 10px;
 }
+/* section 1 of innersections */
+.container1{
+	padding: 20px;
+}
+.container1 .container-innerblock1{
+	margin: 40px 10px 40px 200px;
+}
+.container1 .container-innerblock2{
+	display: flex;
+	margin: 40px 200px 40px 10px;
+	align-items: center;
+	background-color: var(--quatesection_seconderytext-color);
+	padding: 20px;
+}
+/*.container1 .container-innerblock2{
+	background-color: var(--quatesection_seconderytext-color);
+
+}*/
+.container1 .container-innerblock1 h1{
+	color: var(--heromaintext_headerlogotext-color);
+}
+.container1 .container-innerblock1 sub{
+	color: var(--quatesection_seconderytext-color);
+}
+.container1 .btn{
+	background-color: var(--button-color);
+	border-radius: 5px;
+	color: var(--heromaintext_headerlogotext-color);
+	padding: 5px 10px 5px 10px;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+}
 
 /* section 2 of innersections */
 .container2{
