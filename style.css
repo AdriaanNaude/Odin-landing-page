@@ -30,6 +30,13 @@ header .head-container a{
 	color: var(--quatesection_seconderytext-color);
 	margin: 10px;
 }
+@media screen and (max-width: 960px){
+		
+	.head-container{
+		margin: 0 80px 0 80px;
+	}
+
+}
 /* section 1 of innersections */
 .container1{
 	padding: 20px;
@@ -70,7 +77,14 @@ header .head-container a{
 	text-align: center;
 	cursor: pointer;
 }
-
+@media screen and (max-width: 960px){
+	.container1 .container-innerblock1{
+		margin: 40px 10px 40px 100px;
+	}
+	.container1 .container-innerblock2{
+		margin: 40px 100px 40px 10px;
+	}
+}
 /* section 2 of innersections */
 .container2{
 	flex-direction: column;
@@ -118,7 +132,11 @@ header .head-container a{
 	font-size: 36px;
 	font-weight: lighter;
 }
-
+@media screen and (max-width: 960px){
+	.quote-container{
+		margin: 100px 200px 100px 200px;
+	}
+}
 
 
 /* section 4 of innersections */
